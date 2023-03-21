@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* * {  */          /* для всех элементов */
+   /*  padding: 0;
+    margin: 0;
+} */
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+    /* font: normal 16px 'Roboto', sans-serif; */
+}
+
+a {
+    /* color: black; */
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+/* a:visited {
+    color: rgb(68, 47, 47);
+} */
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+
+
+.info p {
+    color: #121a2c;
+    margin: 0;
+    font-style: italic;
+    margin-bottom: 10px;
+    /* font-weight: bold; */
+    /* text-decoration: none; */
+    /* text-transform: uppercase; */
+    /* letter-spacing: 5px; */
+    /* word-spacing: 42px; */
+}
+
+/* Box model */
+.container {
+    max-width: /* 100% */1000px;
+    margin: auto;
+    padding-top: 30px;
+}
+/* .work {
+    background: green;
+    padding: 15px; */
+    /* padding: 15px 40px;
+    padding: 15px 20px 25px 40px; */
+    /* border: 5px solid red;
+    margin: 5px; */
+/* } */
+
+/* .box-model > div { */     /* > div - только дети, div - все div */
+    /* float: left;
+    background: #000;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+} */
+
+.bg-yellow {
+    background: #f7f3cb;
+}
+
+.bg-green {
+    background: #bfddc2;
+}
+
+.bg-red {
+    background: #f1d2ca;
+}
+
+.bg-blue {
+    background: #dee1e9;
+}
+
+.bg-brown {
+    background: #e0b699;
+}
+
+.card {
+    padding: 15px 20px;
+    /* background: red; */
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0px 20px;
+    /* list-style: none; */
+}
+
+.list li {
+    /* color: #86898f; */
+    /* margin-bottom: 10px; */
+    /* border-bottom: 1px solid grey; */
+}
+
+.link-list {
+    list-style: square;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(126, 87, 87);
+}
+
+.table-work {
+    width: 100%;    
+}
+
+.table-work td {
+    margin-bottom: 10px; /* не работает - смотреть свойство display для table */
+    padding-bottom: 10px;
+}
+
+/* .table-work td:nth-child(2) {
+    color: #86898f;
+}
+
+.table-work tr:nth-child(even) {
+    background: red;
+} */
+
+.table-ed {
+    
+}
+
+.table-ed td {
+    padding-bottom: 10px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    /* background: transparent; */
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    /* display: none; */
+    display: flex;
+    margin-bottom: 20px;    
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0px;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Position */
+
+/* .position {
+    position: relative;
+    border: 4px solid #000;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+}
+
+.box {
+    position: fixed;
+    top: 0px;
+    left: 0px; */
+    /* bottom: 50px;
+    right: 50px;
+    border-radius: 50%; */
+    /* top: 50px; */
+   /*  width: 100%;
+    height: 50px;
+    background: lightcoral;
+} */
